@@ -8,6 +8,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class NewTest {
   @Test
   public void f() {
+	  //Test
 	  WebDriverManager.chromedriver().setup();
 	  WebDriver driver=null;
 	  driver=new ChromeDriver();
